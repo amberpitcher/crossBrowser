@@ -1,0 +1,102 @@
+/* Mozilla Specific CSS */
+@-moz-document url-prefix() {
+ h1{
+ 	color: #82c8ff;
+ }
+ article img{
+ 	filter: grayscale(0.5) blur(10px);
+ }
+
+}
+
+
+body{
+	color: #333333;
+}
+
+h1{
+	font-family: 'Merriweather', serif;
+	font-size: 50px;
+	font-weight: bold;
+	padding: 18px 25px;
+	background-color: #ffe8ec;
+}
+
+h2{
+	font-family: 'Merriweather', serif;
+	font-size: 25px;
+	width: 380px;
+}
+h3{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	padding-left: 25px;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+	-moz-font-size-adjust: 16px;
+	font-size-adjust: none;
+	font-size: 18px;
+	width: 380px;
+	-webkit-hyphens: auto;
+	hyphens: none;
+	-webkit-text-emphasis: 'x' #ff7f95;
+	text-emphasis: '*' #555;
+}
+
+a{
+	text-decoration: none;
+	color: #ff7f95;
+	}
+
+form{
+	padding: 18px 25px;
+	background-color: #ffe8ec;
+}
+
+input{
+	margin: 0px 10px 0px 0px;
+	padding: 10px;
+	outline-offset: 3px;
+	outline-color: #ff7f95;
+	border-color: #ff7f95;
+	border-style: solid;
+	background-color: #ffeff2;
+	
+}
+input:-moz-focusring{
+	outline: 3px dotted #ff7f95;
+}
+::-moz-placeholder { 
+	color: #82c8ff;
+}
+
+button{
+	padding: 10px;
+	background-color: #333333;
+	color: #ffffff;
+	outline: none;
+	border:none;
+	cursor: -moz-zoom-in;
+
+}
+button:hover{
+	background-color: #ff7f95;
+	-webkit-transition: all .5s ease-in;
+}
+
+article{
+	padding: 10px;
+}
+
+article{
+	display: inline-block;
+	text-align: center;
+}
+
+article img{
+	width: auto;
+	height: 280px;
+	
+}
